@@ -1,5 +1,6 @@
 pipeline {
     agent { docker 'maven:3.3.3' }
+    print("ceshidhidsadh")
     stages {
         stage('build') {
             steps {
